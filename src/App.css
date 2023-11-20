@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Roboto+Condensed:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@200;300&family=Roboto+Condensed:wght@100;200&display=swap');
+
+html{
+  background-color: #F8E5E0;
+}
+.navbar{
+  padding-top: 1rem ;
+  position: fixed;
+  top:0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-title{
+  font-size: 1.2rem;
+  font-family: 'Poppins';
+  font-weight: 900;
+  padding-left: 6rem;
+  text-decoration: none;
+  color: #303179;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-section{
+  padding-left: 30rem;
+  font-weight: 800;
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
+  padding-top: 1rem ;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.navbar-elements{
+  padding-left: 1.9rem;
+}
+
+.signin-btn{
+    margin-left: 1.9rem;
+    border-radius: 1.5rem;
+    padding: 0.8rem;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 1rem;
+    border: 2px solid black;
+}
+
+.signin-btn:hover{
+  color: #e9c8bf;
+  background-color: white;
+  border: 1px solid transparent;
+}
+
+
+/* Welcome section css */
+
+.container{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  padding-left: 11rem;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  /* justify-content: center; */
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: left;
+  max-width: 70%;
 }
 
-.App-link {
-  color: #61dafb;
+.row{
+  padding: 20rem auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.brainstorm{
+  /* font-family: 'Inter', sans; */
+  font-size: 3rem;
+  font-weight: 800;
+  background: linear-gradient(to right, #355C99, #EB7A65, #A9F9E1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.book{
+  font-size: 3.4rem;
+  line-height: 3rem;
+  font-family: 'Inter';
+  font-weight: 500;
+}
+
+.book-text{
+  line-height: 1.4rem;
+  padding-top: 20px;
+}
+
+.img{
+  width: 70%;
+  padding-left: 12rem;
 }
