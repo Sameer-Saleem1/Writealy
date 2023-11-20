@@ -3,10 +3,11 @@
 
 html{
   background-color: #F8E5E0;
+  font-family: 'Inter';
 }
 .navbar{
   padding-top: 1rem ;
-  position: fixed;
+  /* position: fixed; */
   top:0;
 }
 
@@ -56,6 +57,7 @@ html{
   display: grid;
   grid-template-columns: auto auto;
   padding-top: 5rem;
+  column-gap: 2rem;
   padding-bottom: 2rem;
   padding-left: 11rem;
   left: 0;
@@ -74,7 +76,7 @@ html{
 
 .brainstorm{
   /* font-family: 'Inter', sans; */
-  font-size: 3rem;
+  font-size: 72px;
   font-weight: 800;
   background: linear-gradient(to right, #355C99, #EB7A65, #A9F9E1);
   -webkit-background-clip: text;
@@ -82,18 +84,200 @@ html{
 }
 
 .book{
-  font-size: 3.4rem;
+  font-size: 72px;
   line-height: 3rem;
   font-family: 'Inter';
   font-weight: 500;
 }
 
 .book-text{
-  line-height: 1.4rem;
+  font-size: 20px;
+  line-height: 30px;
   padding-top: 20px;
+  color: #4F4F4F;
+
 }
 
 .img{
-  width: 70%;
-  padding-left: 12rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.demo{
+  border-radius: 1.5rem;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  font-weight: 700;
+  background-color: transparent;
+  padding: 0.8rem 1.3rem;
+  border: 2px solid black;
+}
+
+.free{
+  border-radius: 1.5rem;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  font-weight: 700;
+  background-color: #EB7A65;
+  padding: 0.8rem 1.3rem;
+  color: white;
+  border: 2px solid black;
+}
+
+.overview{
+  font-size: 20px;
+  padding-left: 10rem;
+  font-family: 'Inter';
+  font-weight: 900;
+}
+
+.min{
+  font-size: 14px;
+  font-weight: 500;
+  color: #828282;
+}
+
+.content-teams{
+  background-color: #EB7A65;
+  width: 100%;
+  height: auto;
+}
+
+.content-teams-text{
+  color: #333333;
+  line-height: 29.8px;
+  text-align: center;
+  font-size: 23px;
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+.circleright{
+  background-color: white;
+  border-radius: 1.5rem;
+  width: 30px;
+  height: auto;
+}
+
+.teams{
+  background-color: transparent;
+  padding-left: 4rem;
+  width: 1239px;
+  height: 235.63px;
+  padding-bottom: 2rem;
+}
+
+.people-container{
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto 10rem ;
+  margin-top: 3rem;
+}
+
+.people-text{
+  font-size: 40px;
+  padding-bottom: 3rem;
+}
+
+.people-container .card-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 2rem;
+}
+
+.card{
+  margin-bottom: 2rem;
+  background-color: transparent;
+}
+
+.card img{
+  
+  width: 330px;
+  height: 451px;
+}
+
+/* UseCase CSS  */
+
+
+.usecase-container{
+  background-color: #FFF0EC;
+  padding: 3rem;
+}
+
+.inner-usecase{
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;  
+  padding-bottom: 2rem;
+}
+
+.usecase-heading{
+  font-size: 14px;
+  letter-spacing: 4.2px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.workflow{
+  font-size: 23px;
+  line-height: 41px;
+  font-family: 'Inter';
+  text-align: center;
+}
+
+.usecase-profile{
+  display: grid;
+  grid-template-columns: auto auto;
+  /* left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0; */
+  justify-content: center;
+  justify-items: center;
+}
+
+.usecase-profile img{
+  margin-right: 3rem;
+  width: 95%;
+  height: auto;
+}
+
+.usecase-info{
+  text-align: left;
+  top: 0;
+}
+
+.usecase-info-container{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.vertical-line{
+  border-left: 4px solid black;
+  height: 80px;
+}
+.usecase-info-heading{
+  color: #828282;
+  font-size: 22px;
+  line-height: 26.4px;
+}
+
+.usecase-info-heading-detail{
+  font-size: 14px;
+  line-height: 22px;
+  color: #828282;
+  margin-top: 9px;
 }
