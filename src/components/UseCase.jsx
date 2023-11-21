@@ -27,17 +27,17 @@ const UseCase = () => {
                 </div>
             </div>
 
-            <div className='usecase-info-heading' style={{marginLeft:'11px', marginTop:'1rem'}}>Write faster</div>
-             <div className='usecase-info-heading-detail' style={{marginLeft:'11px'}}>Generate first drafts in  <br/> seconds</div>
+            <div className='usecase-info-heading' style={{marginLeft:'25px', marginTop:'1rem'}}>Write faster</div>
+             <div className='usecase-info-heading-detail' style={{marginLeft:'25px'}}>Generate first drafts in  <br/> seconds</div>
              
-            <div className='usecase-info-heading' style={{marginLeft:'11px', marginTop:'1rem'}}>Edit faster</div>
-             <div className='usecase-info-heading-detail' style={{marginLeft:'11px'}}>Automate brand, editorial, <br/> and style edits</div>
+            <div className='usecase-info-heading' style={{marginLeft:'25px', marginTop:'1rem'}}>Edit faster</div>
+             <div className='usecase-info-heading-detail' style={{marginLeft:'25px'}}>Automate brand, editorial, <br/> and style edits</div>
              
-            <div className='usecase-info-heading' style={{marginLeft:'11px', marginTop:'1rem'}}>Illustrate Faster</div>
-             <div className='usecase-info-heading-detail' style={{marginLeft:'11px'}}>Instantly produce  <br/> distribution content</div>
+            <div className='usecase-info-heading' style={{marginLeft:'25px', marginTop:'1rem'}}>Illustrate Faster</div>
+             <div className='usecase-info-heading-detail' style={{marginLeft:'25px'}}>Instantly produce  <br/> distribution content</div>
              
-            <div className='usecase-info-heading' style={{marginLeft:'11px', marginTop:'1rem'}}>Publish Faster</div>
-             <div className='usecase-info-heading-detail' style={{marginLeft:'11px'}}>Turn a blog post into a <br/> case study — or vice versa</div>
+            <div className='usecase-info-heading' style={{marginLeft:'25px', marginTop:'1rem'}}>Publish Faster</div>
+             <div className='usecase-info-heading-detail' style={{marginLeft:'25px'}}>Turn a blog post into a <br/> case study — or vice versa</div>
         </div>
       </div>
     </div>

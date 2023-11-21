@@ -3,7 +3,10 @@
 
 html{
   background-color: #F8E5E0;
-  font-family: 'Inter';
+}
+
+body{
+  font-family: 'Inter',sans-serif;
 }
 .navbar{
   padding-top: 1rem ;
@@ -22,7 +25,7 @@ html{
 }
 
 .navbar-section{
-  padding-left: 30rem;
+  padding-left: 25rem;
   font-weight: 800;
   font-size: 1rem;
   text-decoration: none;
@@ -47,7 +50,9 @@ html{
 .signin-btn:hover{
   color: #e9c8bf;
   background-color: white;
-  border: 1px solid transparent;
+  border: 2px solid white;
+  cursor: pointer;
+  /* border: 1px solid transparent; */
 }
 
 
@@ -116,6 +121,12 @@ html{
   border: 2px solid black;
 }
 
+.demo:hover{
+  background-color: #EB7A65;
+  color: white;
+  cursor: pointer;
+}
+
 .free{
   border-radius: 1.5rem;
   font-size: 1.2rem;
@@ -126,6 +137,12 @@ html{
   padding: 0.8rem 1.3rem;
   color: white;
   border: 2px solid black;
+}
+
+.free:hover{
+  background-color: transparent;
+  color:#EB7A65 ;
+  cursor: pointer;
 }
 
 .overview{
@@ -280,4 +297,100 @@ html{
   line-height: 22px;
   color: #828282;
   margin-top: 9px;
+}
+
+/* Benefits CSS  */
+
+.benefits-container{
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.benefits-container h1{
+  font-size: 40px;
+  letter-spacing: 4.2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.benefits-info-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 2rem;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 4rem;
+}
+
+.right-column{
+  text-align: left;
+}
+
+.main-heading{
+  color: #1F2416;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: left;
+}
+
+.right-column p{
+  font-size: 18px;
+  color: #4F4F4F;
+  line-height: 32px;
+}
+
+.right-column p span{
+  background-color: #9BFFE1;
+  color: black;
+  font-weight: 600;
+}
+
+.enterprise{
+  width: 80%;
+  height: auto;
+  margin-right: -80px;
+}
+
+
+/* Offering CSS  */
+.offering-container{
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  padding: 3rem  5rem ;
+  background-color: #FFEEFC;
+}
+
+.offering-title{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  letter-spacing: 4.2px;
+  margin-top: 0.4rem;
+  text-transform: uppercase;
+}
+
+.payoff{
+  width: 30px;
+  height: auto;
+}
+
+.offering-heading{
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 900;
 }

@@ -1,6 +1,8 @@
 import React from 'react'
 import Welcome from './Welcome'
 import UseCase from './UseCase';
+import Benefits from './Benefits';
+import Offerings from './Offerings';
 
 
 export default function LandingPage() {
@@ -8,6 +10,8 @@ export default function LandingPage() {
     <div>
         <Welcome />
         <UseCase/>
+        <Benefits />
+        <Offerings />
     </div>
   )
 }
