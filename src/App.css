@@ -1,53 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Roboto+Condensed:wght@100;200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@200;300&family=Roboto+Condensed:wght@100;200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Roboto+Condensed:wght@100;200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@200;300&family=Roboto+Condensed:wght@100;200&display=swap");
 
-html{
-  background-color: #F8E5E0;
+html {
+  background-color: #f8e5e0;
 }
 
-body{
-  font-family: 'Inter',sans-serif;
-}
-.navbar{
-  padding-top: 1rem ;
-  /* position: fixed; */
-  top:0;
+body {
+  font-family: "Inter", sans-serif;
 }
 
-.navbar-title{
+.logo {
+  width: 40.5px;
+  height: auto;
+  padding-left: 4.5rem;
+}
+.navbar {
+  padding-top: 1rem;
+  /* position: absolute; */
+  top: 0;
+}
+
+.navbar-title {
   font-size: 1.2rem;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 900;
-  padding-left: 6rem;
+  padding-left: 0.5rem;
   text-decoration: none;
   color: #303179;
-
 }
 
-.navbar-section{
+.navbar-section {
   padding-left: 25rem;
   font-weight: 800;
   font-size: 1rem;
   text-decoration: none;
   color: black;
-  padding-top: 1rem ;
+  padding-top: 1rem;
 }
 
-.navbar-elements{
+.navbar-elements {
   padding-left: 1.9rem;
 }
 
-.signin-btn{
-    margin-left: 1.9rem;
-    border-radius: 1.5rem;
-    padding: 0.8rem;
-    background-color: transparent;
-    font-weight: 600;
-    font-size: 1rem;
-    border: 2px solid black;
+.signin-btn {
+  margin-left: 1.9rem;
+  border-radius: 1.5rem;
+  padding: 0.8rem;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 1rem;
+  border: 2px solid black;
 }
 
-.signin-btn:hover{
+.signin-btn:hover {
   color: #e9c8bf;
   background-color: white;
   border: 2px solid white;
@@ -55,10 +60,9 @@ body{
   /* border: 1px solid transparent; */
 }
 
-
 /* Welcome section css */
 
-.container{
+.container {
   display: grid;
   grid-template-columns: auto auto;
   padding-top: 5rem;
@@ -75,42 +79,41 @@ body{
   max-width: 70%;
 }
 
-.row{
+.row {
   padding: 20rem auto;
 }
 
-.brainstorm{
+.brainstorm {
   /* font-family: 'Inter', sans; */
   font-size: 72px;
   font-weight: 800;
-  background: linear-gradient(to right, #355C99, #EB7A65, #A9F9E1);
+  background: linear-gradient(to right, #355c99, #eb7a65, #a9f9e1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.book{
+.book {
   font-size: 72px;
   line-height: 3rem;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 500;
 }
 
-.book-text{
+.book-text {
   font-size: 20px;
   line-height: 30px;
   padding-top: 20px;
-  color: #4F4F4F;
-
+  color: #4f4f4f;
 }
 
-.img{
+.img {
   width: 100%;
   justify-content: center;
   align-items: center;
   margin-bottom: 1rem;
 }
 
-.demo{
+.demo {
   border-radius: 1.5rem;
   font-size: 1.2rem;
   margin-right: 1rem;
@@ -121,50 +124,50 @@ body{
   border: 2px solid black;
 }
 
-.demo:hover{
-  background-color: #EB7A65;
+.demo:hover {
+  background-color: #eb7a65;
   color: white;
   cursor: pointer;
 }
 
-.free{
+.free {
   border-radius: 1.5rem;
   font-size: 1.2rem;
   margin-right: 1rem;
   margin-top: 1rem;
   font-weight: 700;
-  background-color: #EB7A65;
+  background-color: #eb7a65;
   padding: 0.8rem 1.3rem;
   color: white;
   border: 2px solid black;
 }
 
-.free:hover{
+.free:hover {
   background-color: transparent;
-  color:#EB7A65 ;
+  color: #eb7a65;
   cursor: pointer;
 }
 
-.overview{
+.overview {
   font-size: 20px;
   padding-left: 10rem;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 900;
 }
 
-.min{
+.min {
   font-size: 14px;
   font-weight: 500;
   color: #828282;
 }
 
-.content-teams{
-  background-color: #EB7A65;
+.content-teams {
+  background-color: #eb7a65;
   width: 100%;
   height: auto;
 }
 
-.content-teams-text{
+.content-teams-text {
   color: #333333;
   line-height: 29.8px;
   text-align: center;
@@ -173,14 +176,14 @@ body{
   padding-bottom: 3rem;
 }
 
-.circleright{
+.circleright {
   background-color: white;
   border-radius: 1.5rem;
   width: 30px;
   height: auto;
 }
 
-.teams{
+.teams {
   background-color: transparent;
   padding-left: 4rem;
   width: 1239px;
@@ -188,7 +191,7 @@ body{
   padding-bottom: 2rem;
 }
 
-.people-container{
+.people-container {
   left: 0;
   right: 0;
   top: 0;
@@ -196,52 +199,50 @@ body{
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin: auto 10rem ;
+  margin: auto 10rem;
   margin-top: 3rem;
 }
 
-.people-text{
+.people-text {
   font-size: 40px;
   padding-bottom: 3rem;
 }
 
-.people-container .card-container{
+.people-container .card-container {
   display: grid;
   grid-template-columns: auto auto auto;
   column-gap: 2rem;
 }
 
-.card{
+.card {
   margin-bottom: 2rem;
   background-color: transparent;
 }
 
-.card img{
-  
+.card img {
   width: 330px;
   height: 451px;
 }
 
 /* UseCase CSS  */
 
-
-.usecase-container{
-  background-color: #FFF0EC;
+.usecase-container {
+  background-color: #fff0ec;
   padding: 3rem;
 }
 
-.inner-usecase{
+.inner-usecase {
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   text-align: center;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
   padding-bottom: 2rem;
 }
 
-.usecase-heading{
+.usecase-heading {
   font-size: 14px;
   letter-spacing: 4.2px;
   font-weight: 500;
@@ -249,14 +250,14 @@ body{
   text-transform: uppercase;
 }
 
-.workflow{
+.workflow {
   font-size: 23px;
   line-height: 41px;
-  font-family: 'Inter';
+  font-family: "Inter";
   text-align: center;
 }
 
-.usecase-profile{
+.usecase-profile {
   display: grid;
   grid-template-columns: auto auto;
   /* left: 0;
@@ -267,32 +268,32 @@ body{
   justify-items: center;
 }
 
-.usecase-profile img{
+.usecase-profile img {
   margin-right: 3rem;
   width: 95%;
   height: auto;
 }
 
-.usecase-info{
+.usecase-info {
   text-align: left;
   top: 0;
 }
 
-.usecase-info-container{
+.usecase-info-container {
   display: grid;
   grid-template-columns: auto auto;
 }
-.vertical-line{
+.vertical-line {
   border-left: 4px solid black;
   height: 80px;
 }
-.usecase-info-heading{
+.usecase-info-heading {
   color: #828282;
   font-size: 22px;
   line-height: 26.4px;
 }
 
-.usecase-info-heading-detail{
+.usecase-info-heading-detail {
   font-size: 14px;
   line-height: 22px;
   color: #828282;
@@ -301,7 +302,7 @@ body{
 
 /* Benefits CSS  */
 
-.benefits-container{
+.benefits-container {
   left: 0;
   right: 0;
   top: 0;
@@ -311,14 +312,14 @@ body{
   justify-items: center;
 }
 
-.benefits-container h1{
+.benefits-container h1 {
   font-size: 40px;
   letter-spacing: 4.2px;
   text-transform: uppercase;
   text-align: center;
 }
 
-.benefits-info-container{
+.benefits-info-container {
   display: grid;
   grid-template-columns: auto auto;
   column-gap: 2rem;
@@ -332,38 +333,37 @@ body{
   margin-bottom: 4rem;
 }
 
-.right-column{
+.right-column {
   text-align: left;
 }
 
-.main-heading{
-  color: #1F2416;
+.main-heading {
+  color: #1f2416;
   font-size: 36px;
   line-height: 43px;
   text-align: left;
 }
 
-.right-column p{
+.right-column p {
   font-size: 18px;
-  color: #4F4F4F;
+  color: #4f4f4f;
   line-height: 32px;
 }
 
-.right-column p span{
-  background-color: #9BFFE1;
+.right-column p span {
+  background-color: #9bffe1;
   color: black;
   font-weight: 600;
 }
 
-.enterprise{
+.enterprise {
   width: 80%;
   height: auto;
   margin-right: -80px;
 }
 
-
 /* Offering CSS  */
-.offering-container{
+.offering-container {
   left: 0;
   right: 0;
   top: 0;
@@ -372,24 +372,24 @@ body{
   align-items: center;
   justify-items: center;
   text-align: center;
-  padding: 3rem  5rem ;
-  background-color: #FFEEFC;
+  padding: 3rem 5rem;
+  background-color: #ffeefc;
 }
 
-.offering-title{
-  font-family: 'Poppins', sans-serif;
+.offering-title {
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   letter-spacing: 4.2px;
   margin-top: 0.4rem;
   text-transform: uppercase;
 }
 
-.payoff{
+.payoff {
   width: 30px;
   height: auto;
 }
 
-.offering-heading{
+.offering-heading {
   font-size: 40px;
   line-height: 52px;
   font-weight: 900;
